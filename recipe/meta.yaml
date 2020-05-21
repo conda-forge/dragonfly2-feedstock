@@ -1,5 +1,5 @@
 {% set name = "dragonfly2" %}
-{% set version = "0.23.2" %}
+{% set version = "0.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d1df2dc6459c361382e6123a7306f3aae44345818f99c63e4809cdd7544dc8f
+  sha256: 14c1df658cde902f4f06c9e37cde6e7d956ec6b429ed6b5c8309a100ffe84421
 
 
 build:
@@ -17,7 +17,7 @@ requirements:
   host:
     - python
     - pip
-   
+
   run:
     - python
     - setuptools >=40.0.0
@@ -48,7 +48,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL3
   license_file: LICENSE
-  summary: 'Dragonfly is a speech recognition framework for Python that makes it convenient to create custom commands to use with speech recognition software.'
+  summary: Dragonfly is a speech recognition framework for Python that makes it convenient to create custom commands to use with speech recognition software.
   description: |
     Dragonfly is a speech recognition framework for Python that makes it convenient to
     create custom commands to use with speech recognition software. It was written
