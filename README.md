@@ -5,7 +5,7 @@ Home: https://github.com/dictation-toolbox/dragonfly
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Dragonfly is a speech recognition framework for Python that makes it convenient to create custom commands to use with speech recognition software.
 
