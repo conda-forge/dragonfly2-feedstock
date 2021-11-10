@@ -1,5 +1,5 @@
 {% set name = "dragonfly2" %}
-{% set version = "0.32.1" %}
+{% set version = "0.33.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33005b55f4b1ccdd6db3e17f598ac2821188054277ee6e09401904d76b58dec0
+  sha256: ce7cee8f787ab15f254df3364f0061f62e8431eeb36b471a0fc1bf6cced1c88c
 
 
 build:
@@ -34,6 +34,7 @@ requirements:
     - pynput >=1.4.2  # [linux]
     - pynput >=1.4.2  # [osx]
     - pyobjc-core >=5.2  # [osx]
+    - pyobjc >=5.2  # [osx]
     - py-applescript  # [osx]
     - json-rpc
     - Werkzeug
@@ -61,6 +62,7 @@ about:
 extra:
   recipe-maintainers:
     - ndmaxar
+    - bubblyorca
     - oblute
     - rluria14
     - mxr-conda
