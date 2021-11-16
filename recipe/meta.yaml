@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
 
   run:
-    - python
+    - python >=3.6
     - setuptools >=40.0.0
     - packaging >=19.0
     - six
