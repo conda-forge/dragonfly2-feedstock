@@ -34,6 +34,7 @@ requirements:
     - pynput >=1.4.2  # [linux]
     - pynput >=1.4.2  # [osx]
     - pyobjc-core >=5.2  # [osx]
+    - pyobjc >=5.2 
     - py-applescript  # [osx]
     - json-rpc
     - Werkzeug
