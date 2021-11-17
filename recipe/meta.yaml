@@ -25,9 +25,9 @@ requirements:
     - lark-parser ==0.8.*
     - packaging >=19.0
     - psutil >=5.5.1  # [linux]
-    - py-applescript ==1.0.0  # [osx]
+    - py-applescript >=1.0.0  # [osx]
     - pynput >=1.4.2  # [linux]
-    - pyobjc >=5.2  # [osx]
+    - pyobjc-core >=5.2  # [osx]
     - pyperclip >=1.7.0
     - python
     - pywin32  # [win]
