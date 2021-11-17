@@ -27,7 +27,7 @@ requirements:
     - psutil >=5.5.1  # [linux]
     - py-applescript >=1.0.0  # [osx]
     - pynput >=1.4.2 
-    - pyobjc-core >=5.2, <7.1  # [osx]
+    - pyobjc-core >=5.2, <8.0  # [osx]
     - pyperclip >=1.7.0
     - python
     - pywin32  # [win]
