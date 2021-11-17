@@ -33,7 +33,7 @@ requirements:
     - psutil >=5.5.1  # [linux]
     - pynput >=1.4.2  # [linux]
     - pynput >=1.4.2  # [osx]
-    - pyobjc-core >=5.2, <6.2 # [osx]
+    - pyobjc-core >=5.2, <6.2  # [osx]
     - py-applescript  # [osx]
     - json-rpc
     - Werkzeug
