@@ -1,5 +1,5 @@
 {% set name = "dragonfly2" %}
-{% set version = "0.34.1" %}
+{% set version = "0.35.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 37a7b4d40b1c76e8963cf5bfa1485a0294b2b68a1dd2a154f18ff05d0355e91c
+  sha256: 71353479142df37d60287d42559f912d0d238affa6cecc3db65364e1f2032c52
 
 
 build:
